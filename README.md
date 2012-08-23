@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/Sembiance/node-email-validator.png)](http://travis-ci.org/Sembiance/node-email-validator)
 Description
 ===========
 
