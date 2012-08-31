@@ -7,6 +7,9 @@ var tester = /^[-!#$%&'*+\/0-9=?A-Z^_a-z{|}~](\.?[-!#$%&'*+/0-9=?A-Z^_a-z{|}~])*
 // http://stackoverflow.com/questions/201323/what-is-the-best-regular-expression-for-validating-email-addresses/201378#201378
 function validate(email)
 {
+	if(email.length>254)
+		return false;
+
 	var valid = tester.test(email);
 	if(!valid)
 		return false;
@@ -14,9 +17,6 @@ function validate(email)
 	// Further checking of some things regex can't handle
 	var parts = email.split("@");
 	if(parts[0].length>64)
-		return false;
-	
-	if(email.length>254)
 		return false;
 
 	var domainParts = parts[1].split(".");
