@@ -1,11 +1,11 @@
 { "name": "email-validator",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "author": "Robert Schultz <robert@cosmicrealms.com>",
   "description": "Provides a fast, pretty robust e-mail validator. Only checks form, not function.",
   "main": "index",
   "engines": { "node": ">0.3.0" },
   "keywords": [ "email", "validation", "validator", "syntax" ],
-  "homepage" : "http://github.com/Sembiance/node-email-validator",
-  "licenses": [ { "type": "MIT", "url": "http://github.com/Sembiance/node-email-validator/raw/master/LICENSE" } ],
-  "repository": { "type": "git", "url": "http://github.com/Sembiance/node-email-validator.git" }
+  "homepage" : "http://github.com/Sembiance/email-validator",
+  "licenses": [ { "type": "MIT", "url": "http://github.com/Sembiance/email-validator/raw/master/LICENSE" } ],
+  "repository": { "type": "git", "url": "http://github.com/Sembiance/email-validator.git" }
 }
