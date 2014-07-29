@@ -22,7 +22,8 @@ var validSupported =
 	"local@sld.newTLD",
 	"the-total-length@of-an-entire-address.cannot-be-longer-than-two-hundred-and-fifty-four-characters.and-this-address-is-254-characters-exactly.so-it-should-be-valid.and-im-going-to-add-some-more-words-here.to-increase-the-lenght-blah-blah-blah-blah-bla.org",
 	"the-character-limit@for-each-part.of-the-domain.is-sixty-three-characters.this-is-exactly-sixty-three-characters-so-it-is-valid-blah-blah.com",
-	"local@sub.domains.com"
+	"local@sub.domains.com",
+	"backticks`are`legit@test.com"
 ];
 
 var validUnsupported =
