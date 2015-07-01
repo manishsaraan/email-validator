@@ -7,6 +7,9 @@ var tester = /^[-!#$%&'*+\/0-9=?A-Z^_a-z{|}~](\.?[-!#$%&'*+/0-9=?A-Z^_a-z`{|}~])
 // http://stackoverflow.com/questions/201323/what-is-the-best-regular-expression-for-validating-email-addresses/201378#201378
 function validate(email)
 {
+	if (!email)
+		return false;
+		
 	if(email.length>254)
 		return false;
 
