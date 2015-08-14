@@ -23,7 +23,9 @@ var validSupported =
 	"the-total-length@of-an-entire-address.cannot-be-longer-than-two-hundred-and-fifty-four-characters.and-this-address-is-254-characters-exactly.so-it-should-be-valid.and-im-going-to-add-some-more-words-here.to-increase-the-lenght-blah-blah-blah-blah-bla.org",
 	"the-character-limit@for-each-part.of-the-domain.is-sixty-three-characters.this-is-exactly-sixty-three-characters-so-it-is-valid-blah-blah.com",
 	"local@sub.domains.com",
-	"backticks`are`legit@test.com"
+	"backticks`are`legit@test.com",
+	"digit-only-domain@123.com",
+	"digit-only-domain-with-subdomain@sub.123.com"
 ];
 
 var validUnsupported =
@@ -61,7 +63,10 @@ var invalidSupported =
 	"unbracketed-IP@127.0.0.1",
 	"invalid-ip@127.0.0.1.26",
 	"another-invalid-ip@127.0.0.256",
-	"IP-and-port@127.0.0.1:25"
+	"IP-and-port@127.0.0.1:25",
+	"trailing-dots@test.de.",
+	"dot-on-dot-in-domainname@te..st.de",
+	"dot-first-in-domain@.test.de"
 ];
 
 console.log("SUPPORTED BY MODULE:\n");
