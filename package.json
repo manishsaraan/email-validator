@@ -1,5 +1,5 @@
 { "name": "email-validator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Robert Schultz <robert@cosmicrealms.com>",
   "description": "Provides a fast, pretty robust e-mail validator. Only checks form, not function.",
   "main": "index",
