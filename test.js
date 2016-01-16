@@ -66,7 +66,8 @@ var invalidSupported =
 	"IP-and-port@127.0.0.1:25",
 	"trailing-dots@test.de.",
 	"dot-on-dot-in-domainname@te..st.de",
-	"dot-first-in-domain@.test.de"
+	"dot-first-in-domain@.test.de",
+	"mg@ns.i"
 ];
 
 console.log("SUPPORTED BY MODULE:\n");
