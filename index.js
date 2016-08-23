@@ -1,4 +1,5 @@
 "use strict";
+var exporter = {};
 
 var tester = /^[-!#$%&'*+\/0-9=?A-Z^_a-z{|}~](\.?[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-?\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/;
 // Thanks to:
@@ -28,5 +29,19 @@ function validate(email)
 
 	return true;
 }
+exporter.validate = validate;
 
-exports.validate = validate;
+function validate_async(email, callback)
+{
+    var isValidEmail = false;
+    try {
+        isValidEmail = exporter.validate(email);
+        callback(null, isValidEmail);
+    }
+    catch(err) {
+        callback(err, isValidEmail)
+    }
+}
+exporter.validate_async = validate_async;
+
+module.exports = exporter;

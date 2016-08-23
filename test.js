@@ -70,6 +70,8 @@ var invalidSupported =
 	"mg@ns.i"
 ];
 
+console.log('SYNC VERSION TESTS')
+console.log('=====================')
 console.log("SUPPORTED BY MODULE:\n");
 
 console.log("SHOULD BE VALID:");
@@ -82,5 +84,34 @@ console.log("\n\nNOT SUPPORTED BY MODULE:\n");
 
 console.log("SHOULD BE VALID:");
 validUnsupported.forEach(function(email) { console.log("%s : %s", validator.validate(email) ? "    VALID" : "  INVALID", email); });
+
+
+console.log('------------------------------------------------------\n');
+
+console.log('ASYNC VERSION TESTS')
+console.log('=====================')
+
+console.log("SHOULD BE VALID:");
+validSupported.forEach(function(email) {
+    validator.validate_async(email, function(err, isValidEmail) {
+      console.log("%s : %s", isValidEmail ? " VALID" : "  INVALID", email);
+    });
+});
+
+console.log("\nSHOULD BE INVALID:");
+invalidSupported.forEach(function(email) {
+    validator.validate_async(email, function(err, isValidEmail) {
+      console.log("%s : %s", isValidEmail ? " VALID" : "  INVALID", email); 
+    });
+});
+
+console.log("\n\nNOT SUPPORTED BY MODULE:\n");
+
+console.log("SHOULD BE VALID:");
+validUnsupported.forEach(function(email) {
+    validator.validate_async(email, function(err, isValidEmail) {
+      console.log("%s : %s", isValidEmail ? " VALID" : "  INVALID", email);
+    });
+});
 
 process.exit(0);
