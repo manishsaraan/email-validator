@@ -20,6 +20,10 @@ var validator = require("email-validator");
 
 validator.validate("test@email.com"); // true
 
+validator.validate_async("test@email.com", function(err, isValidEmail) {
+        //Do something with isValidEmail
+}); // true
+
 ```
 
 ## Contribute
