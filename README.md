@@ -32,7 +32,7 @@ We would love for you to contribute to **email-validator**, check the ``LICENSE`
 
 ## Meta
 
-Robert Schultze – http://cosmicrealms.com – robert@cosmicrealms.com
+Robert Schultz – http://cosmicrealms.com – robert@cosmicrealms.com
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
