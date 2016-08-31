@@ -26,6 +26,18 @@ validator.validate_async("test@email.com", function(err, isValidEmail) {
 
 ```
 
+```typescript
+
+import * as validator from 'email-validator';
+
+validator.validate("test@email.com"); // true
+
+validator.validate_async("test@email.com", ((err, isValidEmail) => {
+        // Do something with isValidEmail        
+}));
+
+```
+
 ## Contribute
 
 We would love for you to contribute to **email-validator**, check the ``LICENSE`` file for more info.
