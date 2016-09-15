@@ -3,7 +3,7 @@
  * @param {string} email - The email address to validate.
  * @returns {boolean}
  */
-export function validate(email: string);
+export function validate(email: string): boolean;
 
 
 /**
@@ -11,7 +11,7 @@ export function validate(email: string);
  * @param {string} email - The email address to validate.
  * @param {AsyncCallback} callback - The callback to execute.
  */
-export function validate_async(email: string, callback: AsyncCallback);
+export function validate_async(email: string, callback: AsyncCallback): void;
 
 
 export interface AsyncCallback {
