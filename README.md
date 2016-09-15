@@ -14,6 +14,8 @@ npm install email-validator
 
 ## Usage
 
+#### javascript
+
 ```javascript
 
 var validator = require("email-validator");
@@ -23,6 +25,20 @@ validator.validate("test@email.com"); // true
 validator.validate_async("test@email.com", function(err, isValidEmail) {
         //Do something with isValidEmail
 }); // true
+
+```
+
+#### TypeScript
+
+```typescript
+
+import * as EmailValidator from 'email-validator';
+
+EmailValidator.validate("test@email.com"); // true
+
+EmailValidator.validate_async("test@email.com", ((err, isValidEmail) => {
+        // Do something with isValidEmail        
+}));
 
 ```
 
