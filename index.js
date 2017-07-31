@@ -1,12 +1,11 @@
 "use strict";
-var exporter = {};
 
 var tester = /^[-!#$%&'*+\/0-9=?A-Z^_a-z{|}~](\.?[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-?\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/;
 // Thanks to:
 // http://fightingforalostcause.net/misc/2006/compare-email-regex.php
 // http://thedailywtf.com/Articles/Validating_Email_Addresses.aspx
 // http://stackoverflow.com/questions/201323/what-is-the-best-regular-expression-for-validating-email-addresses/201378#201378
-function validate(email)
+exports.validate = function(email)
 {
 	if (!email)
 		return false;
@@ -29,19 +28,3 @@ function validate(email)
 
 	return true;
 }
-exporter.validate = validate;
-
-function validate_async(email, callback)
-{
-    var isValidEmail = false;
-    try {
-        isValidEmail = exporter.validate(email);
-        callback(null, isValidEmail);
-    }
-    catch(err) {
-        callback(err, isValidEmail)
-    }
-}
-exporter.validate_async = validate_async;
-
-module.exports = exporter;
