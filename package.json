@@ -4,6 +4,9 @@
   "author": "Robert Schultz <robert@cosmicrealms.com>",
   "description": "Provides a fast, pretty robust e-mail validator. Only checks form, not function.",
   "main": "index",
+  "scripts" : {
+    "test" : "mocha test.js"
+  },
   "typings": "index.d.ts",
   "engines": {
     "node": ">0.3.0"
@@ -31,5 +34,9 @@
   "repository": {
     "type": "git",
     "url": "http://github.com/Sembiance/email-validator.git"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.0.5"
   }
 }
