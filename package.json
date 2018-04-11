@@ -1,7 +1,7 @@
 {
   "name": "email-validator",
   "version": "1.1.1",
-  "author": "Robert Schultz <robert@cosmicrealms.com>",
+  "author": "Manish Saraan <manish021js@gmail.com>",
   "description": "Provides a fast, pretty robust e-mail validator. Only checks form, not function.",
   "main": "index",
   "scripts" : {
@@ -17,14 +17,19 @@
     "validator",
     "syntax"
   ],
-  "homepage": "http://github.com/Sembiance/email-validator",
+  "homepage": "http://github.com/manishsaraan/email-validator",
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/Sembiance/email-validator/raw/master/LICENSE"
+      "url": "http://github.com/manishsaraan/email-validator/raw/master/LICENSE"
     }
   ],
   "contributors": [
+    {
+      "name": "Manish Saraan",
+      "email": "manish021js@gmail.com",
+      "url": "https://github.com/manishsaraan"
+    },
     {
       "name": "Brad Martin",
       "email": "bradwaynemartin@gmail.com",
@@ -33,7 +38,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/Sembiance/email-validator.git"
+    "url": "http://github.com/manishsaraan/email-validator.git"
   },
   "devDependencies": {
     "chai": "4.1.2",
