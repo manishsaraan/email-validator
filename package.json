@@ -1,11 +1,12 @@
 {
   "name": "email-validator",
-  "version": "1.1.1",
+  "version": "1.2.1",
   "author": "Manish Saraan <manish021js@gmail.com>",
   "description": "Provides a fast, pretty robust e-mail validator. Only checks form, not function.",
   "main": "index",
-  "scripts" : {
-    "test" : "mocha test.js"
+  "scripts": {
+    "xo": "xo index.js --fix",
+    "test": "mocha test.js && xo"
   },
   "typings": "index.d.ts",
   "engines": {
@@ -42,6 +43,7 @@
   },
   "devDependencies": {
     "chai": "4.1.2",
-    "mocha": "5.0.5"
+    "mocha": "5.0.5",
+    "xo": "^0.20.3"
   }
 }
