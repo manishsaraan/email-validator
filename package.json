@@ -1,6 +1,6 @@
 {
   "name": "email-validator",
-  "version": "1.2.1",
+  "version": "2.0.1",
   "author": "Manish Saraan <manish021js@gmail.com>",
   "description": "Provides a fast, pretty robust e-mail validator. Only checks form, not function.",
   "main": "index",
@@ -9,7 +9,7 @@
   },
   "typings": "index.d.ts",
   "engines": {
-    "node": ">0.3.0"
+    "node": ">4.0"
   },
   "keywords": [
     "email",
