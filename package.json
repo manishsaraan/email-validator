@@ -5,8 +5,7 @@
   "description": "Provides a fast, pretty robust e-mail validator. Only checks form, not function.",
   "main": "index",
   "scripts": {
-    "xo": "xo index.js --fix",
-    "test": "mocha test.js && xo"
+    "test": "mocha test.js && xo index.js --fix"
   },
   "typings": "index.d.ts",
   "engines": {
