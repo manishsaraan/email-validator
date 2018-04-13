@@ -27,7 +27,7 @@ exports.validate = function (email) {
 	}
 
 	const domainParts = parts[1].split('.');
-	if (domainParts.some(part => {
+	if (domainParts.some(function (part) { // eslint-disable-line prefer-arrow-callback
 		return part.length > 63;
 	}))		{
 		return false;
