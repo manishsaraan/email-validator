@@ -1,6 +1,6 @@
 "use strict";
 
-var tester = /^[-!#$%&'*+\/0-9=?A-Z^_a-z{|}~](\.?[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~])*@[a-zA-Z0-9](-?\.?[a-zA-Z0-9])*\.[a-zA-Z](-?[a-zA-Z0-9])+$/;
+var tester = /^[-!#$%&'*+\/0-9=?A-ZА-Я^_a-zа-я{|}~](\.?[-!#$%&'*+\/0-9=?A-ZА-Я^_a-zа-я`{|}~])*@[a-zA-Z0-9а-яА-Я](-?\.?[a-zA-Z0-9а-яА-Я])*\.[a-zA-Zа-яА-Я](-?[a-zA-Z0-9а-яА-Я])+$/;
 // Thanks to:
 // http://fightingforalostcause.net/misc/2006/compare-email-regex.php
 // http://thedailywtf.com/Articles/Validating_Email_Addresses.aspx
