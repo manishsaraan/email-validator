@@ -1,3 +1,4 @@
 email-validator.sublime-project
 email-validator.sublime-workspace
 node_modules
+index.cjs*
