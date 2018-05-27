@@ -13,6 +13,7 @@ const validSupported =
 	"local@dash-in-sld.com",
 	"letters-in-sld@123.com",
 	"one-letter-sld@x.org",
+	"test@test--1.com",
 	"uncommon-tld@sld.museum",
 	"uncommon-tld@sld.travel",
 	"uncommon-tld@sld.mobi",
