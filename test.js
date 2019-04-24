@@ -25,7 +25,8 @@ const validSupported =
 	"local@sub.domains.com",
 	"backticks`are`legit@test.com",
 	"digit-only-domain@123.com",
-	"digit-only-domain-with-subdomain@sub.123.com"
+	"digit-only-domain-with-subdomain@sub.123.com",
+	"`a@a.fr"
 ];
 
 const validUnsupported =
