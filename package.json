@@ -11,6 +11,7 @@
   "engines": {
     "node": ">4.0"
   },
+  "license": "Unlicense",
   "keywords": [
     "email",
     "validation",
