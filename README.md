@@ -14,6 +14,9 @@ npm install email-validator
 
 ```
 
+[Try and install via Bit](https://bitsrc.io/manishsaraan/email-validator/email-validator)
+
+
 ## Usage
 
 #### javascript
