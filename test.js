@@ -26,16 +26,19 @@ const validSupported =
 	"backticks`are`legit@test.com",
 	"digit-only-domain@123.com",
 	"digit-only-domain-with-subdomain@sub.123.com",
-	"`a@a.fr"
-];
-
-const validUnsupported =
-[
+	"`a@a.fr",
 	"\"quoted\"@sld.com",
 	"\"\\e\\s\\c\\a\\p\\e\\d\"@sld.com",
 	"\"quoted-at-sign@sld.org\"@sld.com",
 	"\"escaped\\\"quote\"@sld.com",
 	"\"back\\slash\"@sld.com",
+	"\"backslash.\"@sld.com",
+	"\"back@s@a@sh\"@sld.com",
+	"\"back..slash\"@sld.com",
+];
+
+const validUnsupported =
+[
 	"punycode-numbers-in-tld@sld.xn--3e0b707e",
 	"bracketed-IP-instead-of-domain@[127.0.0.1]"
 ];
