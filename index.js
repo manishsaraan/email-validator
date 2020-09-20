@@ -13,7 +13,9 @@ exports.validate = function (email) {
   if (!tester.test(email)) return false;
 
   // Further checking of some things regex can't handle
-  var [account, address] = email.split('@');
+  var emailParts = email.split('@');
+  var account = emailParts[0];
+  var address = emailParts[1];
   if (account.length > 64) return false;
 
   var domainParts = address.split('.');
