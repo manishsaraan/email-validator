@@ -74,7 +74,6 @@ const invalidSupported =
 	"dot-first-in-domain@.test.de",
 	"mg@ns.i",
 	".dot-start-and-end.@sil.com",
-	// "dot.a@1sil.111",
 	"double@a@com",
 	"",
 	"tr119037jskc_ihndkdoz@d.aakctgajathzffcsuqyjhgjuxnuulgnhxtnbquwtgxljfayeestsjdbalthtddy.lgtmsdhywswlameglunsaplsblljavswxrltovagexhtttodqedmicsekvpmpuu.pgjvdmvzyltpixvalfbktnnpjyjqswbfvtpbfsngqtmhgamhrbqqvyvlhqigggv.nxqglspfbwdhtfpibcrccvctmoxuxwlunghhwacjtrclgirrgppvshxvrzkoifl",
