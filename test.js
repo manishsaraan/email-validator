@@ -26,7 +26,11 @@ const validSupported =
 	"backticks`are`legit@test.com",
 	"digit-only-domain@123.com",
 	"digit-only-domain-with-subdomain@sub.123.com",
-	"`a@a.fr"
+	"`a@a.fr",
+	"`aa@fr.com",
+	"com@sil.c1m",
+	"t119037jskc_ihndkdoz@aakctgajathzffcsuqyjhgjuxnuulgnhxtnbquwtgxljfayeestsjdbalthtddy.lgtmsdhywswlameglunsaplsblljavswxrltovagexhtttodqedmicsekvpmpuu.pgjvdmvzyltpixvalfbktnnpjyjqswbfvtpbfsngqtmhgamhrbqqvyvlhqigggv.nxqglspfbwdhtfpibcrccvctmoxuxwlunghhwacjtrclgirrgppvshxvrzkoifl",
+
 ];
 
 const validUnsupported =
@@ -68,7 +72,13 @@ const invalidSupported =
 	"trailing-dots@test.de.",
 	"dot-on-dot-in-domainname@te..st.de",
 	"dot-first-in-domain@.test.de",
-	"mg@ns.i"
+	"mg@ns.i",
+	".dot-start-and-end.@sil.com",
+	// "dot.a@1sil.111",
+	"double@a@com",
+	"",
+	"tr119037jskc_ihndkdoz@d.aakctgajathzffcsuqyjhgjuxnuulgnhxtnbquwtgxljfayeestsjdbalthtddy.lgtmsdhywswlameglunsaplsblljavswxrltovagexhtttodqedmicsekvpmpuu.pgjvdmvzyltpixvalfbktnnpjyjqswbfvtpbfsngqtmhgamhrbqqvyvlhqigggv.nxqglspfbwdhtfpibcrccvctmoxuxwlunghhwacjtrclgirrgppvshxvrzkoifl",
+
 ];
 describe('TEST EMAILS AGAINST VALIDATOR', () => {
 	it('Should Be Valid', () => {
