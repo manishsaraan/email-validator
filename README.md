@@ -46,7 +46,6 @@ Contributions welcome! Check the ``LICENSE`` file for more info.
 
 ## Meta
 
-* robert@cosmicrealms.com
 * manish021js@gmail.com
 
 Distributed under the unlicense public domain. See ``LICENSE`` for more information.
