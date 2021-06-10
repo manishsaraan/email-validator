@@ -1,0 +1,14 @@
+version: 2
+updates:
+    - package-ecosystem: "npm"
+      directory: "/"
+      open-pull-requests-limit: 3
+      rebase-strategy: "auto"
+      target-branch: "master"
+      schedule:
+          interval: "weekly"
+          day: "monday"
+          time: "00:00"
+          timezone: "UTC"
+      allow:
+          - dependency-type: "direct"
