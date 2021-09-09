@@ -30,7 +30,8 @@ const validSupported =
 	"`aa@fr.com",
 	"com@sil.c1m",
 	"t119037jskc_ihndkdoz@aakctgajathzffcsuqyjhgjuxnuulgnhxtnbquwtgxljfayeestsjdbalthtddy.lgtmsdhywswlameglunsaplsblljavswxrltovagexhtttodqedmicsekvpmpuu.pgjvdmvzyltpixvalfbktnnpjyjqswbfvtpbfsngqtmhgamhrbqqvyvlhqigggv.nxqglspfbwdhtfpibcrccvctmoxuxwlunghhwacjtrclgirrgppvshxvrzkoifl",
-
+	"ไทย@เที่ยวทั่ว.ไทย",
+	"aaa@ทดสอบ.ไทย"
 ];
 
 const validUnsupported =
