@@ -30,6 +30,10 @@ const validSupported =
 	"`aa@fr.com",
 	"com@sil.c1m",
 	"t119037jskc_ihndkdoz@aakctgajathzffcsuqyjhgjuxnuulgnhxtnbquwtgxljfayeestsjdbalthtddy.lgtmsdhywswlameglunsaplsblljavswxrltovagexhtttodqedmicsekvpmpuu.pgjvdmvzyltpixvalfbktnnpjyjqswbfvtpbfsngqtmhgamhrbqqvyvlhqigggv.nxqglspfbwdhtfpibcrccvctmoxuxwlunghhwacjtrclgirrgppvshxvrzkoifl",
+	"email-test@universal-acceptance-test.international",
+	"email-test@universal-acceptance-test.icu",
+	"อีเมลทดสอบ@ยูเอทดสอบ.ไทย",
+	"อีเมลทดสอบ@ทีเอชนิค.องค์กร.ไทย",
 
 ];
 
