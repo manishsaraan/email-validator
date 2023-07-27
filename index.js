@@ -29,3 +29,5 @@ exports.validate = function (email) {
 
   return tester.test(email);
 };
+
+exports.tester = tester;
