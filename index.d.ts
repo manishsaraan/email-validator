@@ -4,3 +4,4 @@
  * @returns {boolean}
  */
 export function validate(email: string): boolean;
+export const tester: RegExp;
