@@ -10,9 +10,9 @@ var tester = /^[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~](\.?[-!#$%&'*+\/0-9=?A-Z^_a-z`{|}~
 exports.validate = function (email) {
   if (!email) return false;
 
-  var emailParts = email.split('@');
+  if (!tester.test(email)) return false;
 
-  if (emailParts.length !== 2) return false;
+  var emailParts = email.split('@');
 
   var account = emailParts[0];
   var address = emailParts[1];
@@ -27,7 +27,7 @@ exports.validate = function (email) {
     return part.length > 63;
   })) return false;
 
-  return tester.test(email);
+  return true;
 };
 
 exports.tester = tester;
